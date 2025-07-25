@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import Image from "next/image";
 import { AudioWaveform, ChevronDown, ChevronUp, Clock, MapPin, Star, X } from "lucide-react";
