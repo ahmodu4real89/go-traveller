@@ -13,13 +13,11 @@ import {
   Wallet
 } from 'lucide-react'
 import Image from 'next/image'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 const Navbar = () => {
 
   const [query, setQuery] = useState('');
-  const [results, setResults] = useState<any[]>([]);
-  const [loading, setLoading] = useState(false);
 
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
@@ -30,8 +28,6 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center w-full px-6 py-4 bg-white">
-
-      
       <div className="flex items-center gap-4 flex-1">
         <Image src="/logo.png" alt="logo" width={50} height={40} className="bg-blue-500 p-2 rounded-md" />
 
