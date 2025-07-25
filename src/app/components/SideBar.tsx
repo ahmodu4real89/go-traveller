@@ -15,7 +15,7 @@ import {
 const Sidebar = () => {
   return (
     <div
-      className="bg-white w-[300px] h-[800px] px-6 py-8 flex flex-col justify-between m-6"
+      className="bg-white w-[300px] h-[800px] px-6 py-6 flex flex-col justify-between m-8"
     >
   
       <div className="flex flex-col gap-6 text-gray-600">
@@ -30,7 +30,7 @@ const Sidebar = () => {
       </div>
 
       
-      <div className="bg-white rounded-lg p-3 flex items-center justify-between shadow-sm mt-8">
+      <div className="bg-gray-200 rounded-lg p-3 flex items-center justify-between shadow-sm mt-8">
         <button className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm">
           Go
         </button>
