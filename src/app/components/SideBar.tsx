@@ -4,13 +4,13 @@ import {
   Building2,
   Plane,
   GraduationCap,
-  Contact,
   Landmark,
-  PlusSquare,
   Package,
   ChevronDown,
   Menu,
-  X
+  X,
+  ClipboardPlus,
+  IdCard
 } from 'lucide-react';
 import { useState } from 'react';
 
@@ -41,9 +41,9 @@ const Sidebar = () => {
           <NavItem icon={<Building2 width={30} height={26} />} label="Hotels" />
           <NavItem icon={<Plane width={30} height={26} />} label="Flights" />
           <NavItem icon={<GraduationCap width={30} height={26} />} label="Study" />
-          <NavItem icon={<Contact width={30} height={26} />} label="Visa" />
+          <NavItem icon={<IdCard width={30} height={26} />} label="Visa" />
           <NavItem icon={<Landmark width={30} height={26} />} label="Immigration" />
-          <NavItem icon={<PlusSquare width={30} height={26} />} label="Medical" />
+          <NavItem icon={<ClipboardPlus width={30} height={26} />} label="Medical" />
           <NavItem icon={<Package width={30} height={26} />} label="Vacation Packages" />
         </div>
 
@@ -64,7 +64,7 @@ const Sidebar = () => {
 const NavItem = ({ icon, label }: { icon: React.ReactNode; label: string }) => (
   <div className="flex items-center gap-3 cursor-pointer hover:text-blue-600 transition">
     {icon}
-    <span className="text-2xl">{label}</span>
+    <span className="text-base">{label}</span>
   </div>
 );
 

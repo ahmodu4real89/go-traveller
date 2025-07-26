@@ -8,7 +8,7 @@ import {
   Crosshair,
   HandCoins,
   Home,
-  Plane,
+  ListChecks,
   Search,
   Wallet
 } from 'lucide-react'
@@ -61,8 +61,8 @@ const Navbar = () => {
               { icon: <Home width={24} height={25} />, label: 'Home' },
               { icon: <Crosshair width={24} height={25} />, label: 'Dashboard' },
               { icon: <Wallet width={24} height={25} />, label: 'Wallet' },
-              { icon: <Plane width={24} height={25} />, label: 'Plan Trip' },
-              { icon: <HandCoins width={24} height={25} />, label: 'Commission' },
+              { icon: <ListChecks width={24} height={25} />, label: 'Plan a Trip' },
+              { icon: <HandCoins width={24} height={25} />, label: 'Commission for life' },
             ].map((item, idx) => (
               <div key={idx} className="flex flex-col items-center hover:text-blue-600 cursor-pointer">
                 {item.icon}
