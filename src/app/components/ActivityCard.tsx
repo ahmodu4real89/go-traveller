@@ -26,15 +26,15 @@ const ActivityCard = () => {
 
       <div className="flex flex-col md:flex-row w-full mx-auto mb-4 bg-white shadow-md rounded-md overflow-hidden border border-white">
     
-        <div className="w-full md:w-[250px] h-[200px] md:h-auto relative bg-gray-100">
-          <Image
-            src="/activity.png"
-            alt="Activity"
-            fill
-            className="object-cover"
-          />
-        </div>
-
+       <div className="relative w-full lg:w-3xs h-64 lg:h-auto bg-gray-100 flex items-center justify-center">
+                 <Image
+                   src="/activity.png"
+                   alt="Activity"
+                   fill
+                   className="object-cover"
+                 />
+               </div>
+       
         <div className="flex-1 flex flex-col">
         
           <div className="p-4 flex flex-col lg:flex-row lg:justify-between gap-4">

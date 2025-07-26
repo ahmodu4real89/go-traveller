@@ -27,11 +27,11 @@ const HotelCard = () => {
       
       <div className="flex flex-col lg:flex-row w-full max-w-8xl mx-auto mb-4 bg-white shadow-md rounded-md overflow-hidden border border-white">
     
-        <div className="relative w-full lg:w-1/3 h-64 lg:h-auto bg-gray-100 flex items-center justify-center">
+        <div className="relative w-full lg:w-3xs h-64 lg:h-auto bg-gray-100 flex items-center justify-center">
           <Image
             src="/hotel.png"
             alt="Hotel"
-            fill
+              fill
             className="object-cover"
           />
         </div>
