@@ -4,7 +4,7 @@ import Navbar from './components/NavBar'
 
 const DashboardWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
+    <div className='bg-gray-200'>
       <Navbar  />
 
       <div className="flex">

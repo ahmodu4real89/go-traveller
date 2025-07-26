@@ -17,9 +17,9 @@ const HeroCard = () => {
                     <p className="text-sm text-gray-600">New York,  United States of America  😎 <span>Solo Trip</span></p>
                 </div>
 
-                {/* Right side: Icons & Images */}
+                
                 <div className=" flex flex-col justify-between h-[100px] p-2">
-                    {/* Top group - Icons */}
+            
                     <div className="flex gap-4 text-sm mb-6">
                         <span className="flex items-center gap-2 px-16 py-2 bg-blue-200 rounded">
                             <UserPlus size={30} className='text-blue-600' />
@@ -28,8 +28,7 @@ const HeroCard = () => {
                             <Ellipsis size={30} />
                         </span>
                     </div>
-
-                    {/* Bottom group - Images */}
+ 
                     <div className="flex gap-4 text-sm  p-4">
                         <span className="flex items-center">
                             <Image
@@ -53,9 +52,6 @@ const HeroCard = () => {
                 </div>
             </div>
 
-
-
-            {/*cards */}
             <div className="flex gap-6  max-w-3xl">
                 <Card
                     textColor='text-white'
@@ -87,8 +83,6 @@ const HeroCard = () => {
                     buttonTextColor='text-[#0D6EFD]'
                 />
             </div>
-
-
         </>
     )
 }

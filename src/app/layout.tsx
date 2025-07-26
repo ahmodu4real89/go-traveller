@@ -8,7 +8,6 @@ import "./globals.css";
 
 import React from 'react';
 
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
