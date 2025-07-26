@@ -13,7 +13,7 @@ import {
 const ActivityCard = () => {
   return (
     <div className="bg-blue-600 p-4">
-    
+
       <div className="flex flex-wrap items-center justify-between gap-4 my-3">
         <div className="flex items-center gap-2">
           <AudioWaveform className="text-white" size={24} />
@@ -24,21 +24,21 @@ const ActivityCard = () => {
         </button>
       </div>
 
-      <div className="flex flex-col md:flex-row w-full mx-auto mb-4 bg-white shadow-md rounded-md overflow-hidden border border-white">
-    
-       <div className="relative w-full lg:w-3xs h-64 lg:h-auto bg-gray-100 flex items-center justify-center">
-                 <Image
-                   src="/activity.png"
-                   alt="Activity"
-                   fill
-                   className="object-cover"
-                 />
-               </div>
-       
+      <div className="flex flex-col md:flex-row w-full mx-auto mb-4 bg-white shadow-md rounded-md overflow-hidden border border-white p-3">
+
+        <div className="relative w-full lg:w-3xs h-64 lg:h-auto bg-gray-100 flex items-center justify-center">
+          <Image
+            src="/activity.png"
+            alt="Activity"
+            fill
+            className="object-cover"
+          />
+        </div>
+
         <div className="flex-1 flex flex-col">
-        
+
           <div className="p-4 flex flex-col lg:flex-row lg:justify-between gap-4">
-            
+
             <div className="flex flex-col flex-1 min-w-[250px]">
               <h2 className="text-2xl font-semibold text-gray-900 mb-2">
                 The Museum of Modern Art
@@ -60,7 +60,7 @@ const ActivityCard = () => {
               </div>
             </div>
 
-          
+
             <div className="flex flex-col justify-center items-start lg:items-end min-w-[200px] text-right gap-1">
               <span className="text-xl font-bold text-gray-800 whitespace-nowrap">
                 ₦ 185,000
@@ -71,7 +71,7 @@ const ActivityCard = () => {
             </div>
           </div>
 
-        
+
           <div className="p-4 flex flex-col md:flex-row justify-between gap-4 border-t border-gray-200 text-sm text-gray-600">
             <div className="flex flex-wrap gap-4">
               <span className="font-medium">What's Included:</span>
@@ -79,7 +79,7 @@ const ActivityCard = () => {
               <span className="text-blue-500">See more</span>
             </div>
 
-        
+
             <div className="flex items-center gap-2">
               <span className="bg-[#0A369D] text-white px-3 py-1 rounded">
                 Day 1 - (2)
