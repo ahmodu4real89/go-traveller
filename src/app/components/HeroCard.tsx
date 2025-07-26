@@ -21,7 +21,7 @@ const HeroCard = () => {
                 <div className=" flex flex-col justify-between h-[100px] p-2">
             
                     <div className="flex gap-4 text-sm mb-6">
-                        <span className="flex items-center gap-2 px-16 py-2 bg-blue-200 rounded">
+                        <span className="flex items-center gap-2 px-16 py-2 mt-2 bg-blue-200 rounded">
                             <UserPlus size={30} className='text-blue-600' />
                         </span>
                         <span className="flex items-center gap-2">
@@ -29,7 +29,7 @@ const HeroCard = () => {
                         </span>
                     </div>
  
-                    <div className="flex gap-4 text-sm  p-4">
+                    <div className="flex gap-4 text-sm p-4">
                         <span className="flex items-center">
                             <Image
                                 src="/box.svg"
